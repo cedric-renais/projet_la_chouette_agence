@@ -293,7 +293,7 @@ a:hover {
 }
 
 .navbar-brand {
-    height: auto;
+    height: 40px;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
@@ -658,6 +658,10 @@ a {
     max-width: 1000px;
 }
 
+.image-resize-mode{
+    width: 100px;
+}
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -677,7 +681,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -697,6 +701,16 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+
+.quote{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.quote-sign{
+    font-size: 14px;
 }
 
 .social {
