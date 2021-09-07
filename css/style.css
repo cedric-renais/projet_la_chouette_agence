@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important;
 }
 
 .container {
@@ -718,6 +718,10 @@ p {
     margin: auto auto auto auto;
 }
 
+.row{
+    color: #424242;
+}
+
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -750,7 +754,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #424242!important;
 }
 
 .portfolio-thumb {
@@ -789,7 +793,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F5A27F!important;
 }
 
 .btn-atomic-tangerine {
