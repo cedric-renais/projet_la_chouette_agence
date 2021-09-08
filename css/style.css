@@ -441,6 +441,7 @@ nav .caret {
 }
 
 .mg-lg {
+    font-size: 16px;
     margin-top: 10px;
     margin-bottom: 40px;
 }
@@ -663,7 +664,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 36px;
 }
 
 .hero-bloc-text-sub {
@@ -720,6 +721,12 @@ p {
 
 .row{
     color: #424242;
+}
+
+.adress{
+    margin-top: 15px;
+    margin-left: 5px ;
+    font-size: 16px;
 }
 
 h2 {
