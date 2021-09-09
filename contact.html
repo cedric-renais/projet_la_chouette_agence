@@ -39,10 +39,10 @@
 
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<img class="navbar-brand" src="img/la-chouette-agence.png" alt="Logo de la chouette agence" />
+						<img class="navbar-brand" src="img/la-chouette-agence.png" alt="dessin d'une chouette avec le texte la chouette agence à côté" />
 						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle"
 							data-toggle="collapse" data-target=".navbar-1">
-							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
 					</div>
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
@@ -89,25 +89,25 @@
 								<label for="name">
 									Nom
 								</label>
-								<input id="name" class="form-control" required />
+								<input id="name" class="form-control" aria-placeholder="Votre Nom" required />
 							</div>
 							<div class="form-group">
 								<label for="email">
 									Adresse email
 								</label>
-								<input id="email" class="form-control" type="email" required />
+								<input id="email" class="form-control" type="email" aria-placeholder="Votre adresse mail" required />
 							</div>
 							<div class="form-group">
 								<label for="how">
 									Comment nous avez-vous connu ?
 								</label>
-								<input id="how" class="form-control" type="email" required id="input_504" />
+								<input id="how" class="form-control" type="email" aria-placeholder="La réponse à la question" required id="input_504" />
 							</div>
 							<div class="form-group">
 								<label for="message">
-									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-								</label><textarea id="message" class="form-control" rows="4" cols="50"
-									required></textarea>
+									Brief de votre projet (Ajoutez autant de détails que nécessaire)
+								</label>
+								<textarea id="message" class="form-control" rows="4" cols="50" aria-placeholder="Brief de votre projet" required></textarea>
 							</div>
 							<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
 								type="submit">
@@ -116,8 +116,9 @@
 						</form>
 					</div>
 					<div class="adress col-sm-6">
-						<address>contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du
-							lundi au vendredi</address>
+						<address>contact@lachouetteagence.com</address>
+						<address>2 place Sathonay 69001 Lyon</address>
+						<address>Ouvert de 9h à 18h, du lundi au vendredi</address>
 					</div>
 				</div>
 			</div>
