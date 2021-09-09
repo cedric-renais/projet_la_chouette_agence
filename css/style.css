@@ -293,12 +293,13 @@ a:hover {
 }
 
 .navbar-brand {
-    height: 40px;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+    height: 40px;
+    width: 100%;
 }
 
 .navbar-brand img {
@@ -661,6 +662,7 @@ a {
 
 .image-resize-mode{
     width: 100px;
+    height: 100%;
 }
 
 .hero-bloc-text {
@@ -765,6 +767,8 @@ h4 {
 }
 
 .portfolio-thumb {
+    height: 100%;
+    width: 100%;
     margin-bottom: 24px;
 }
 
