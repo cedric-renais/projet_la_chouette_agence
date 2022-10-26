@@ -1,1 +1,3 @@
-CedricRenais_4_07092021
+# Projet La chouette agence
+
+Optimiser un site web existant (vitesse de chargement, accessibilité, responsive design...) 
